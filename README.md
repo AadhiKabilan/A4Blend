@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# A4 Blend
+## Music Player App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern music player built with React, Vite, and Tailwind CSS. This application allows users to play local MP3 files, extract metadata (including cover art), and manage a playlist with search functionality.
 
-## Available Scripts
+![Music Player Screenshot](./screenshot.png) <!-- Add a screenshot if available -->
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Play Local MP3 Files**: Load and play MP3 files from the `public/songs` directory.
+- **Metadata Extraction**: Extract song metadata (title, artist, album, cover art) using `music-metadata-browser`.
+- **Playlist Management**: Browse, search, and play songs from the playlist.
+- **Responsive Design**: Built with Tailwind CSS for a clean and responsive UI.
+- **Volume Control**: Adjust volume and mute/unmute the player.
+- **Progress Bar**: Seek through the song using a progress bar.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A fast build tool for modern web development.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **music-metadata-browser**: A library for extracting metadata from audio files.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Node.js (v16 or higher)
+- npm (v7 or higher)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://github.com/your-username/music-player.git
+   cd music-player
+   ```
+2. Install dependencies:
 
-### `npm run eject`
+   ```bash
+      npm install
+   ```
+   - Add your MP3 files to the public/songs directory. Ensure the files have embedded metadata (e.g., title, artist, cover art).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Start the development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+      npm run dev
+   ```
+     - Open your browser and navigate to http://localhost:3000.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Usage
+- Search: Use the search bar to filter songs by title.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Play/Pause: Click the play/pause button to control playback.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Volume Control: Adjust the volume slider or click the mute button.
 
-### Code Splitting
+- Next/Previous: Use the next and previous buttons to navigate through the playlist.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Folder Structure
+music-player/
+├── public/
+│ ├── songs/ # Directory for MP3 files
+│ └── assets/ # Default cover art and other static assets
+├── src/
+│ ├── components/ # React components
+│ ├── App.jsx # Main application component
+│ └── main.jsx # Entry point
+├── .gitignore # Files and directories to ignore
+├── package.json # Project dependencies and scripts
+├── README.md # Project documentation
+└── vite.config.js # Vite configuration
 
-### Analyzing the Bundle Size
+## Contributing
+Contributions are welcome! If you'd like to contribute, please follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Fork the repository.
 
-### Making a Progressive Web App
+Create a new branch (git checkout -b feature/YourFeatureName).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Commit your changes (git commit -m 'Add some feature').
 
-### Advanced Configuration
+Push to the branch (git push origin feature/YourFeatureName).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Open a pull request.
 
-### Deployment
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgments
+Vite for the fast development environment.
 
-### `npm run build` fails to minify
+Tailwind CSS for the utility-first CSS framework.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+music-metadata-browser for metadata extraction.
+
+Made with ❤️ by Aadhi Kabilan
+
+
+
+
