@@ -62,19 +62,18 @@ A modern music player built with React, Vite, and Tailwind CSS. This application
 - Next/Previous: Use the next and previous buttons to navigate through the playlist.
 
 ## Folder Structure
-
 music-player/
 ├── public/
-│   ├── songs/            # Directory for MP3 files
-│   └── assets/           # Default cover art and other static assets
+│ ├── songs/ # Directory for MP3 files
+│ └── assets/ # Default cover art and other static assets
 ├── src/
-│   ├── components/       # React components
-│   ├── App.jsx           # Main application component
-│   └── main.jsx          # Entry point
-├── .gitignore            # Files and directories to ignore
-├── package.json          # Project dependencies and scripts
-├── README.md             # Project documentation
-└── vite.config.js        # Vite configuration
+│ ├── components/ # React components
+│ ├── App.jsx # Main application component
+│ └── main.jsx # Entry point
+├── .gitignore # Files and directories to ignore
+├── package.json # Project dependencies and scripts
+├── README.md # Project documentation
+└── vite.config.js # Vite configuration
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute, please follow these steps:
