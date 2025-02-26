@@ -48,7 +48,7 @@ Add your MP3 files to the public/songs directory. Ensure the files have embedded
    ```bash
       npm run dev
    ```
-Open your browser and navigate to http://localhost:3000.
+   Open your browser and navigate to http://localhost:3000.
 
 
 
