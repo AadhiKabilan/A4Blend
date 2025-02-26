@@ -36,19 +36,23 @@ A modern music player built with React, Vite, and Tailwind CSS. This application
    git clone https://github.com/your-username/music-player.git
    cd music-player
    ```
-Install dependencies:
+2. Install dependencies:
 
-
-npm install
+   ```bash
+      npm install
+   ```
 Add your MP3 files to the public/songs directory. Ensure the files have embedded metadata (e.g., title, artist, cover art).
 
-Start the development server:
+3. Start the development server:
 
-
-npm run dev
+   ```bash
+      npm run dev
+   ```
 Open your browser and navigate to http://localhost:3000.
 
-###Usage
+
+
+##Usage
 Search: Use the search bar to filter songs by title.
 
 Play/Pause: Click the play/pause button to control playback.
@@ -57,7 +61,7 @@ Volume Control: Adjust the volume slider or click the mute button.
 
 Next/Previous: Use the next and previous buttons to navigate through the playlist.
 
-###Folder Structure
+##Folder Structure
 
 music-player/
 ├── public/
@@ -72,7 +76,7 @@ music-player/
 ├── README.md             # Project documentation
 └── vite.config.js        # Vite configuration
 
-###Contributing
+##Contributing
 Contributions are welcome! If you'd like to contribute, please follow these steps:
 
 Fork the repository.
@@ -85,10 +89,10 @@ Push to the branch (git push origin feature/YourFeatureName).
 
 Open a pull request.
 
-###License
+##License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-###Acknowledgments
+##Acknowledgments
 Vite for the fast development environment.
 
 Tailwind CSS for the utility-first CSS framework.
