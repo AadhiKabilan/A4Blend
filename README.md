@@ -41,25 +41,25 @@ A modern music player built with React, Vite, and Tailwind CSS. This application
    ```bash
       npm install
    ```
--Add your MP3 files to the public/songs directory. Ensure the files have embedded metadata (e.g., title, artist, cover art).
+   - Add your MP3 files to the public/songs directory. Ensure the files have embedded metadata (e.g., title, artist, cover art).
 
 3. Start the development server:
 
    ```bash
       npm run dev
    ```
-  - Open your browser and navigate to http://localhost:3000.
+     - Open your browser and navigate to http://localhost:3000.
 
 
 
 ##Usage
-Search: Use the search bar to filter songs by title.
+- Search: Use the search bar to filter songs by title.
 
-Play/Pause: Click the play/pause button to control playback.
+- Play/Pause: Click the play/pause button to control playback.
 
-Volume Control: Adjust the volume slider or click the mute button.
+- Volume Control: Adjust the volume slider or click the mute button.
 
-Next/Previous: Use the next and previous buttons to navigate through the playlist.
+- Next/Previous: Use the next and previous buttons to navigate through the playlist.
 
 ##Folder Structure
 
