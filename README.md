@@ -41,14 +41,14 @@ A modern music player built with React, Vite, and Tailwind CSS. This application
    ```bash
       npm install
    ```
-Add your MP3 files to the public/songs directory. Ensure the files have embedded metadata (e.g., title, artist, cover art).
+-Add your MP3 files to the public/songs directory. Ensure the files have embedded metadata (e.g., title, artist, cover art).
 
 3. Start the development server:
 
    ```bash
       npm run dev
    ```
-   Open your browser and navigate to http://localhost:3000.
+  - Open your browser and navigate to http://localhost:3000.
 
 
 
